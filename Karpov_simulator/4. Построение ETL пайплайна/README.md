@@ -4,11 +4,15 @@
 Airflow — это библиотека, позволяющая очень легко и удобно работать с расписанием и мониторингом выполняемых задач.
 
 Интерфейс Airflow выглядит следующим образом:
-![image](https://github.com/D-e-n-mark/Yandex_and_Karpov/blob/main/Karpov_simulator/4.%20%D0%9F%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5%20ETL%20%D0%BF%D0%B0%D0%B9%D0%BF%D0%BB%D0%B0%D0%B9%D0%BD%D0%B0/Airflow%20interface.jpg)
+![Airflow interface](https://github.com/D-e-n-mark/Yandex_and_Karpov/blob/main/Karpov_simulator/4.%20%D0%9F%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5%20ETL%20%D0%BF%D0%B0%D0%B9%D0%BF%D0%BB%D0%B0%D0%B9%D0%BD%D0%B0/Airflow%20interface.jpg)
 
 DAG — это основная единица работы с Airflow, это некоторая глобальная задача, решаемая путем последовательного выполнения более мелких, редуцированных задач.
 
 На главной страничке у нас перечислены все доступные DAGи, вкладки All, Active и Paused позволяют фильтровать DAGи в соответствии с состоянием их выполнения. У каждого DAGа стоит переключатель, отвечающий за то, активен ли DAG или нет, затем идет название, владелец, информация о запусках и их состояниях, расписание (в формате Cron), информация по последним выполненным задачам и некоторые хот-кеи для работы с DAGом: запуск мгновенно, перезагрузить и удалить.
+
+![Airflow graph](https://github.com/D-e-n-mark/Yandex_and_Karpov/blob/main/Karpov_simulator/4.%20%D0%9F%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5%20ETL%20%D0%BF%D0%B0%D0%B9%D0%BF%D0%BB%D0%B0%D0%B9%D0%BD%D0%B0/Airflow%20graph.jpg)
+
+Граф (graph) – основная логическая единица внутри Airflow
 
 ## Задание 
 
