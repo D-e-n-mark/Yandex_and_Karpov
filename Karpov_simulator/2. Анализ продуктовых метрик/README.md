@@ -5,11 +5,17 @@
 1) В наших данных использования ленты новостей есть два типа юзеров: те, кто пришел через платный трафик source = 'ads', и те, кто пришел через органические каналы source = 'organic'.
 Наша задача – проанализировать и сравнить Retention этих двух групп пользователей.
 
-![image](https://github.com/D-e-n-mark/Yandex_and_Karpov/blob/main/Karpov_simulator/2.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D1%85%20%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D0%BA/retention-rate-%D0%BF%D0%BE-%D1%80%D0%B0%D0%B7%D0%BD%D1%8B%D0%BC-%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B0%D0%BC-%D0%BF%D1%80%D0%B8%D0%B2%D0%BB%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-2023-05-01T17-54-55.173Z.jpg)
+![image](https://github.com/D-e-n-mark/Yandex_and_Karpov/blob/main/Karpov_simulator/2.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D1%85%20%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D0%BA/retention-rate-%D0%BF%D0%BE-%D1%80%D0%B0%D0%B7%D0%BD%D1%8B%D0%BC-%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B0%D0%BC-%D0%BF%D1%80%D0%B8%D0%B2%D0%BB%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-2023-05-02T08-23-05.250Z.jpg)
 
 2) Маркетологи запустили массивную рекламную кампанию, в результате в приложение пришло довольно много новых пользователей, мы можем видеть всплеск на графике активной аудитории.
 Однако у нас есть сомнение в качестве трафика. Нужно изучить, что стало с рекламными пользователями в дальнейшем, как часто они продолжают пользоваться приложением?
 
+![image](https://github.com/D-e-n-mark/Yandex_and_Karpov/blob/main/Karpov_simulator/2.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D1%85%20%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D0%BA/%D0%B2%D1%81%D0%BF%D0%BB%D0%B5%D1%81%D0%BA-%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D0%B9-%D0%B0%D1%83%D0%B4%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8-2023-05-02T08-23-09.395Z.jpg)
+
 3) Мы наблюдаем внезапное падение активной аудитории! Нужно разобраться, какие пользователи не смогли зайти в приложение, что их объединяет?  
 
+![image](https://github.com/D-e-n-mark/Yandex_and_Karpov/blob/main/Karpov_simulator/2.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D1%85%20%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D0%BA/%D0%BF%D0%B0%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D0%B9-%D0%B0%D1%83%D0%B4%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8-2023-05-02T08-23-32.697Z.jpg)
+
 4) Взгляд на активную аудиторию с точки зрения новых, старых и ушедших пользователей по неделям.
+
+![image](https://github.com/D-e-n-mark/Yandex_and_Karpov/blob/main/Karpov_simulator/2.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D1%85%20%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D0%BA/%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B0%D1%83%D0%B4%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8-%D0%BF%D0%BE-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F%D0%BC-2023-05-02T08-23-41.490Z.jpg)
